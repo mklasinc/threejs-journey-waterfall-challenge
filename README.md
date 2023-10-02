@@ -1,4 +1,4 @@
-# Three.js Journey Waterfall Challenge
+# Three.js Journey Waterfall Challenge 💦
 Code for Bruno Simon's Three.js Journey waterfall challenge.
 - [Project link](#)
 
