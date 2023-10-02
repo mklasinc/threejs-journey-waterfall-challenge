@@ -9,19 +9,37 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.8",
+    "@nodetoy/react-nodetoy": "^0.1.24",
+    "@nodetoy/shared-nodetoy": "^0.2.21",
+    "@react-three/drei": "^9.83.9",
+    "@react-three/fiber": "^8.14.1",
+    "@react-three/postprocessing": "^2.15.1",
+    "@react-three/rapier": "^1.1.1",
+    "clsx": "^2.0.0",
+    "leva": "^0.9.35",
+    "next": "latest",
+    "r3f-perf": "^7.1.2",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "react-icons": "^4.11.0",
+    "three": "^0.156.1",
+    "three-instanced-uniforms-mesh": "^0.48.0",
+    "tone": "^14.7.77",
+    "troika-three-utils": "^0.48.0",
+    "typescript": "^5.2.2",
+    "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "typescript": "latest",
-    "@types/react": "latest",
     "@types/node": "latest",
+    "@types/react": "latest",
     "@types/react-dom": "latest",
     "autoprefixer": "latest",
-    "postcss": "latest",
-    "tailwindcss": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prettier": "^3.0.3",
+    "tailwindcss": "latest",
+    "typescript": "latest"
   }
 }
