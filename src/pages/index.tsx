@@ -12,6 +12,7 @@ import { AudioMix } from '@/components/AudioMix'
 import { UI } from '@/components/UI'
 import { Effects } from '@/components/Effects'
 import { Canvas } from '@react-three/fiber'
+import Head from 'next/head'
 
 export default function Home() {
   const {
@@ -36,6 +37,16 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Miha Klasinc Three.js Journey Waterfall Challenge</title>
+        <meta name="title" content="Miha Klasinc Three.js Journey Waterfall Challenge" key="title" />
+
+        {/* Facebook Open Graph meta tags */}
+        <meta name="og:title" content="Miha Klasinc Three.js Journey Waterfall Challenge" key="og:title" />
+        <meta name="og:type" content="site" />
+        <meta name="og:url" content="https://threejs-journey-waterfall-challenge.vercel.app/" key="og:url" />
+        <meta name="og:image" content="/og.jpg" key="og:image" />
+      </Head>
       <Leva hidden />
       <UI />
       <Canvas>
