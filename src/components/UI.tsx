@@ -37,7 +37,7 @@ export const UI = () => {
       </div>
       <div
         className={cx(
-          'absolute bottom-[50px] right-[50px] transition-opacity duration-[500ms] opacity-0',
+          'absolute z-10 bottom-[50px] right-[50px] transition-opacity duration-[500ms] opacity-0',
           hasUserInteracted && 'opacity-100',
         )}
       >
