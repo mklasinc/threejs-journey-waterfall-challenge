@@ -124,7 +124,7 @@ export const Foam = ({ count = 10, color, ...props }: GroupProps & { count: numb
 
   return (
     <group {...props}>
-      <instancedMesh ref={mesh} args={[null, null, particles.length]}>
+      <instancedMesh ref={mesh} args={[undefined, undefined, particles.length]}>
         <dodecahedronGeometry args={[1, 0]} />
         <meshBasicMaterial color={c} toneMapped={false} />
       </instancedMesh>

@@ -7,8 +7,8 @@ import * as THREE from 'three'
 
 export const Waterfall = () => {
   const waterfallRef = useRef<THREE.Group>(null)
-  const { nodes: nodesWaterfall } = useGLTF('/models/cylinder-fix-uvs.gltf')
-  const { nodes: nodesRipple } = useGLTF('/models/waterfall-ripple-smaller-hole.glb')
+  const { nodes: nodesWaterfall } = useGLTF('/models/cylinder-fix-uvs.gltf') as any
+  const { nodes: nodesRipple } = useGLTF('/models/waterfall-ripple-smaller-hole.glb') as any
 
   return (
     <group ref={waterfallRef}>

@@ -10,7 +10,7 @@ import { useControls } from 'leva'
 
 export const BoatModel = React.forwardRef(
   ({ children = null, ...props }: React.PropsWithChildren & GroupProps, ref) => {
-    const { nodes } = useGLTF('/models/watercraftPack_012.gltf')
+    const { nodes } = useGLTF('/models/watercraftPack_012.gltf') as any
     const rootRef = useRef(null)
     const rotorLeftRef = useRef(null)
     const rotorRightRef = useRef(null)
