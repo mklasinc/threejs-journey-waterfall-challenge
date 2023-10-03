@@ -1,2 +1,2 @@
 export const WATERFALL_NEAR_LIMIT = 10
-export const WATERFALL_FAR_LIMIT = 35
+export const WATERFALL_FAR_LIMIT = 32
